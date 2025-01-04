@@ -1,0 +1,42 @@
+.flex-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    display: block;
+    border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
